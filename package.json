@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jili0.github.io/portfolio/",
+  "homepage": "https://jingli.work/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
