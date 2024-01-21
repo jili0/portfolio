@@ -1,0 +1,14 @@
+#projectsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  padding: 3vh;
+  gap: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+  #projectsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+

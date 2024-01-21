@@ -1,0 +1,46 @@
+.detailList {
+  list-style: none;
+  display: grid;
+  place-content: center;
+  margin-top: 8vh;
+}
+
+.detailListItem {
+  background-color: var(--COLOR-THEME-3);
+  width: 90vw;
+  max-width: 1000px;
+  border-radius: 4px;
+  margin-top: 1vh;
+  margin-inline: auto;
+}
+
+.detailListItem:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+details {
+  padding: 1rem;
+}
+
+details > p > strong {
+  color: var(--COLOR-THEME-3);
+  letter-spacing: 1px;
+}
+
+summary {
+  font-family: "cinzel";
+  display: block;
+  text-shadow: var(--SHADOW-DEFAULT);
+}
+
+details p {
+  text-align: justify;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  letter-spacing: -1px;
+}
+
+.utilityList {
+  list-style: none;
+}

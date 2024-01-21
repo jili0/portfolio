@@ -1,0 +1,86 @@
+.contactForm {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 8vh;
+  background-color: var(--COLOR-THEME-2);
+  padding: 3vh;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+fieldset {
+  border: none;
+  margin-top: 3vh;
+}
+
+legend {
+  color: var(--COLOR-THEME-4);
+  text-shadow: var(--TEXT-SHADOW);
+  font-family: "Cinzel";
+}
+
+input,
+textarea {
+  width: 95%;
+  border-radius: 4px;
+  padding: 2vh;
+  margin-top: 2vh;
+  margin-inline: 2.5%;
+  border: none;
+  background-color: var(--COLOR-THEME-4);
+}
+
+input::placeholder,
+textarea::placeholder,
+input,
+textarea {
+  color: var(--COLOR-THEME-2);
+}
+
+.submitButton {
+  border: none;
+  align-self: center;
+  color: var(--COLOR-THEME-4);
+  background-color: var(--COLOR-THEME-3);
+  margin-top: 4vh;
+  padding: 1vh 3vh;
+  box-shadow: var(--BOX-SHADOW);
+  border-radius: 4px;
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  opacity: 0.8;
+}
+
+.submitButton:active {
+  color: var(--COLOR-THEME-2);
+  background-color: var(--COLOR-THEME-4);
+}
+
+.form__confirmMessage {
+  background-color:  var(--COLOR-THEME-2);
+  position: absolute;
+  top: 4vh;
+  right: 8vh;
+  padding: 1vh 3vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form__confirmMessageButton {
+  margin-left: 1vh;
+  border: none;
+  height: 22px;
+  width: 22px;
+  background-color:  var(--COLOR-THEME-2);
+  color:  var(--COLOR-THEME-4);
+}
+
+.form__confirmMessageButton:hover {
+  color:  var(--COLOR-THEME-1);
+}

@@ -1,0 +1,80 @@
+.backgroundImgContainer {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url("../images/hero-1200-800.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.colorFilter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  opacity: 0.5;
+  background-image: conic-gradient(var(--COLOR-THEME-1), var(--COLOR-THEME-4));
+}
+
+.heroText {
+  text-align: center;
+  font-size: var(--FS-XL);
+  color: var(--COLOR-THEME-4);
+  text-shadow: var(--TEXT-SHADOW);
+  font-weight: 700;
+  z-index: 3;
+}
+
+.heroText::before {
+  content: "Welcome ";
+  color: var(--COLOR-THEME-4);
+}
+.heroText::after {
+  content: " portfolio ";
+  color: var(--COLOR-THEME-2);
+}
+
+.technologiesContainer {
+  display: flex;
+  margin-top: 6vh;
+  margin-inline: 2vh;
+  padding: 1vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.technologiesDescription {
+  color: var(--COLOR-THEME-2);
+  font-family: var(--FF-CINZEL);
+}
+
+.technologiesImgContainer {
+  display: grid;
+  gap: 2vh 4vh;
+  grid-template-columns: 1fr 1fr 1fr;
+
+} 
+
+.technologiesImg {
+  background-color: var(--COLOR-THEME-1);
+  height: 45px;
+  width: 45px;
+  border-radius: 4px;  
+}
+
+.textBox {
+  border-radius: 6rem 0 6rem 0;
+  margin-block: 8vh;
+  margin-inline: auto;
+  max-width: 1000px;
+  padding: 4vh;
+  color: var(--COLOR-THEME-4);
+  text-align: justify;
+  background-color: var(--COLOR-THEME-2);
+  rotate: 3deg;
+  width: 90%;
+}

@@ -1,0 +1,21 @@
+.utilityListItem {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.utilityTitle {
+  color: var(--COLOR-THEME-2);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.utilityLink:any-link {
+  color: var(--COLOR-THEME-4);
+}
+
+.utilityLink:hover {
+  color: var(--COLOR-THEME-1);
+}

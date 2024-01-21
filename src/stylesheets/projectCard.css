@@ -1,0 +1,37 @@
+.projectCard {
+  height: auto;
+  width: auto;
+  margin: 2vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem 0.2rem 0.2rem 0.2rem;
+  background-color: var(--COLOR-THEME-2);
+  transition: all 0.15s;
+}
+
+.projectCard:hover,
+.projectCard:focus {
+  transform: translateY(-1vh);
+  transition: all 0.15s;
+}
+
+.projectCard:active {
+  transform: translateY(0vh);
+  opacity: 0.8;
+  transition: all 0.15s;
+}
+
+.projectImg {
+  border-radius: .8rem 0.2rem 0.2rem 0.2rem;
+}
+
+.projectInfo {
+  margin: 1vh;
+  text-align: left;
+}
+
+.projectTitle {
+  font-weight: bold;
+  color: var(--COLOR-THEME-3);
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+/* || VARIABLES */
+
+:root {
+  /* FONTS */
+  --FS-XL: min(7.5vh, 75px);
+  --FS-LARGE: min(3.5vh, 35px);
+  --FS-MEDIUM: min(2.5vh, 25px);
+  --FS-SMALL: min(2vh, 20px);
+  --FF-CINZEL: "Cinzel Decorative", "Cinzel", serif;
+  --FF-POPPINS: "Poppins", sans-serif;
+
+  /* COLORS */
+
+  --COLOR-THEME-1: #030637;
+  --COLOR-THEME-2: steelblue;
+  --COLOR-THEME-3: #910A67;
+  --COLOR-THEME-4: #fff;
+
+
+  /* SHADOW */
+  --TEXT-SHADOW: 1px 1px var(--COLOR-THEME-1);
+  --BOX-SHADOW: 1px 1px 5px var(--COLOR-THEME-2);
+}
+
+/* || RESET  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--FF-POPPINS);
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+/* || UTILITIES */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.avoidBreakInside {
+  break-inside: avoid;
+}
+
+/* || GENERAL STYLES */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--COLOR-THEME-4);
+  background-image: linear-gradient(var(--COLOR-THEME-3), var(--COLOR-THEME-1));
+  min-height: 30vh;
+  font-size: var(--FS-BODY);
+  max-width: 1200px;
+  margin-inline: auto;
+}
+#root {
+  background-color: var(--COLOR-THEME-1);
+}
+
+h2 {
+  font-family: var(--FF-CINZEL);
+  font-size: var(--FS-H2);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: var(--FONT-COLOR-LINK);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+

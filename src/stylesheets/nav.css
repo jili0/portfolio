@@ -1,0 +1,13 @@
+.nav__ul {
+  list-style: none;
+  display: flex;
+  gap: 1vw;
+}
+
+.nav__ul a {
+  font-size: var(--FS-MEDIUM);
+}
+
+.nav__ul a:hover {
+  color: var(--COLOR-THEME-3);
+}
