@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="colorFilter"></div>
       </div>
       <div className="technologiesContainer">
-        <p className="technologiesDescription">🔥 Technologies for this portfolio:</p>
+        <p className="technologiesDescription"> Technologies <span className="nowrap headerFont">for the</span> portfolio:</p>
         <div className="technologiesImgContainer">
           <img
             className="technologiesImg"
@@ -68,17 +68,16 @@ const Hero = () => {
         </div>
       </div>
       <article className="textBox">
-        <h2 className="center">
-          <i className="fa-solid fa-mug-saucer"></i> Greetings <span className="nowrap textBoxTitle">from Jing</span>
+        <h2 className="center textBoxTitle">
+          <i className="fa-solid fa-mug-saucer"></i> Greetings <span className="nowrap headerFont">from Jing</span>
         </h2>
         <br />
         <p>
-          Hello, I am Jing Li and I am a web developer. I live and work in
-          Berlin, Germany. I spend most of my day, experimenting with HTML, CSS
-          and Javascript (and it's framework React). I enjoy coding and the
+          Hello, I am Jing Li and I develop web applications. I live and work in
+          Berlin, Germany. I spend most of my time experimenting with Javascript and it's framework React. I enjoy coding and the
           challenge of learning something new everyday.
           <br />
-          In my freetime, I like jogging, listening to music and cooking. 🍲
+          In my rest time, I like jogging, listening to music and cooking good food. 🍲
         </p>
       </article>
     </>

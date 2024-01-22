@@ -9,4 +9,6 @@
   left: 0px;
   right: 0px;
   padding-block: 1vh;
+  border: none;
+  box-shadow: var(--BOX-SHADOW);
 }

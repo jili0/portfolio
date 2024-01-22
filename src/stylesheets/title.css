@@ -1,7 +1,6 @@
 
 hr {
-  margin-top: 12vh;
-  border: 1px solid var(--COLOR-THEME-3);
+  border: none;
 }
 
 .title {

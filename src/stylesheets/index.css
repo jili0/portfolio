@@ -35,6 +35,9 @@
 }
 
 /* || UTILITIES */
+.headerFont {
+  font-family: var(--FF-CINZEL);
+}
 
 .nowrap {
   white-space: nowrap;
