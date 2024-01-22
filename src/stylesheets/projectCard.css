@@ -8,12 +8,14 @@
   border-radius: 1.2rem 0.2rem 0.2rem 0.2rem;
   background-color: var(--COLOR-THEME-2);
   transition: all 0.15s;
+  opacity: 0.9;
 }
 
 .projectCard:hover,
 .projectCard:focus {
   transform: translateY(-1vh);
   transition: all 0.15s;
+  opacity: 1;
 }
 
 .projectCard:active {

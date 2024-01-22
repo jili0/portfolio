@@ -69,7 +69,7 @@ const Hero = () => {
       </div>
       <article className="textBox">
         <h2 className="center">
-          <i className="fa-solid fa-mug-saucer"></i> Greetings from Jing
+          <i className="fa-solid fa-mug-saucer"></i> Greetings <span className="nowrap textBoxTitle">from Jing</span>
         </h2>
         <br />
         <p>

@@ -16,9 +16,8 @@
 
   --COLOR-THEME-1: #030637;
   --COLOR-THEME-2: steelblue;
-  --COLOR-THEME-3: #910A67;
+  --COLOR-THEME-3: #910a67;
   --COLOR-THEME-4: #fff;
-
 
   /* SHADOW */
   --TEXT-SHADOW: 1px 1px var(--COLOR-THEME-1);
@@ -43,10 +42,6 @@
 
 .center {
   text-align: center;
-}
-
-.avoidBreakInside {
-  break-inside: avoid;
 }
 
 /* || GENERAL STYLES */
@@ -89,4 +84,3 @@ input,
 textarea {
   font: inherit;
 }
-

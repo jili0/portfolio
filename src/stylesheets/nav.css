@@ -11,3 +11,11 @@
 .nav__ul a:hover {
   color: var(--COLOR-THEME-3);
 }
+
+@media screen and (max-width: 600px) {
+  .nav__ul a {
+    font-size: var(--FS-SMALL);
+  }
+  
+}
+

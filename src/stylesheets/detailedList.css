@@ -24,7 +24,7 @@ details {
 }
 
 details > p > strong {
-  color: var(--COLOR-THEME-3);
+  color: var(--COLOR-THEME-2);
   letter-spacing: 1px;
 }
 
@@ -35,7 +35,7 @@ summary {
 }
 
 details p {
-  text-align: justify;
+  text-align: center;
   margin-top: 3vh;
   margin-bottom: 3vh;
   letter-spacing: -1px;

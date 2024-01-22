@@ -61,7 +61,7 @@ textarea {
 }
 
 .form__confirmMessage {
-  background-color:  var(--COLOR-THEME-2);
+  background-color: var(--COLOR-THEME-3);
   position: absolute;
   top: 4vh;
   right: 8vh;
@@ -72,15 +72,25 @@ textarea {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .form__confirmMessage {
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    right: 0;
+    padding: 2vh;
+  }
+}
+
 .form__confirmMessageButton {
   margin-left: 1vh;
   border: none;
   height: 22px;
   width: 22px;
-  background-color:  var(--COLOR-THEME-2);
-  color:  var(--COLOR-THEME-4);
+  background-color: var(--COLOR-THEME-3);
+  color: var(--COLOR-THEME-4);
 }
 
 .form__confirmMessageButton:hover {
-  color:  var(--COLOR-THEME-1);
+  color: var(--COLOR-THEME-1);
 }

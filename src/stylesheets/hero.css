@@ -42,7 +42,7 @@
   display: flex;
   margin-top: 6vh;
   margin-inline: 2vh;
-  padding: 1vh;
+  padding: 2vh;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -56,14 +56,13 @@
   display: grid;
   gap: 2vh 4vh;
   grid-template-columns: 1fr 1fr 1fr;
-
-} 
+}
 
 .technologiesImg {
   background-color: var(--COLOR-THEME-1);
   height: 45px;
   width: 45px;
-  border-radius: 4px;  
+  border-radius: 4px;
 }
 
 .textBox {
@@ -77,4 +76,18 @@
   background-color: var(--COLOR-THEME-2);
   rotate: 3deg;
   width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .technologiesImgContainer {
+    gap: 2vh;
+  }
+
+  .textBox {
+    padding: 6vh;
+  }
+}
+
+.textBoxTitle {
+  font-family: var(--FF-CINZEL);
 }

@@ -12,7 +12,7 @@ const DetailedList = () => {
             some good YouTube courses that I find very useful, for example the
             fullcourses from <strong>SuperSimpleDev</strong> (for beginners) and
             from
-            <strong>Dave Gray</strong> . Those are my favorite! <br />
+            <strong> Dave Gray</strong> . Those are my favorite! <br />
             <br />
             Later on, I discovered learn-plattforms like{" "}
             <strong>FreeCodeCamp</strong>, <strong>Scrimba</strong> and also{" "}
