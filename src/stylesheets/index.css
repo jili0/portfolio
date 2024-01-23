@@ -43,6 +43,10 @@
   white-space: nowrap;
 }
 
+.avoidBreakInside {
+  break-inside: avoid;
+}
+
 .center {
   text-align: center;
 }
