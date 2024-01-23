@@ -1,7 +1,7 @@
 .projectCard {
   height: auto;
   width: auto;
-  margin: 2vh;
+  margin: 1vh;
   padding: 2vh;
   display: flex;
   flex-direction: column;
@@ -24,17 +24,31 @@
   transition: all 0.15s;
 }
 
+.projectCard > a {
+  height: 60vh;
+}
+
 .projectImg {
+  background-color: #fff;
+  height: 60%;
   width: 100%;
+  object-fit: contain;
   border-radius: 0.8rem 0.2rem 0.2rem 0.2rem;
 }
 
 .projectInfo {
   margin: 1vh;
   text-align: left;
+  height: 20vh;
 }
 
 .projectTitle {
   font-weight: bold;
   color: var(--COLOR-THEME-3);
+}
+
+.projectDescription {
+  padding: 1vh;
+  height: 100%;
+  overflow-y: auto;
 }

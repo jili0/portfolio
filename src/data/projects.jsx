@@ -9,25 +9,10 @@ const projects = [
   },
   {
     id: 2,
-    href: "https://jiliblog.netlify.app/",
-    imgSrc: "https://picsum.photos/280/140",
-    title: "Jili Blog",
-    description:
-      "Another react blog app, but with some additional search Post function",
-  },
-  {
-    id: 3,
-    href: "",
-    imgSrc: "https://picsum.photos/280/140",
-    title: "Title 3",
-    description: "App is still in plan",
-  },
-  {
-    id: 4,
-    href: "",
-    imgSrc: "https://picsum.photos/280/140",
-    title: "Title 4",
-    description: "App is still in plan",
+    href: "https://jili0.github.io/to-do-list/",
+    imgSrc: "/portfolio/src/images/toDoList.png",
+    title: "To-Do List",
+    description: "A To-Do List written in vanilla Javascript.",
   },
 ];
 

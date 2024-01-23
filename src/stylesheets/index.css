@@ -87,3 +87,24 @@ input,
 textarea {
   font: inherit;
 }
+
+/* || SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 1px 1px 5px var(--COLOR-THEME-1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  var(--COLOR-THEME-4);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  var(--COLOR-THEME-3);
+  transition: all .05s;
+}
