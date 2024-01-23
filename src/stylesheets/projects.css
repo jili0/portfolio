@@ -6,7 +6,7 @@
   gap: 4vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #projectsContainer {
     grid-template-columns: 1fr;
     gap: 6vh;

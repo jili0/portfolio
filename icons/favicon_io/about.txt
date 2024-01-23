@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Herr Von Muellerhoff
-- Font Author: Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Herr Von Mullerhoff"
-- Font Source: http://fonts.gstatic.com/s/herrvonmuellerhoff/v21/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft3c6_qJY3QPQ.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

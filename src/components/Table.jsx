@@ -5,7 +5,7 @@ const Table = () => {
     <table>
       <thead>
         <tr>
-          <td colSpan="2">Areas of Expertise</td>
+          <td colSpan="2" className="headerFont">Areas of Expertise</td>
         </tr>
       </thead>
       <tbody className="center">

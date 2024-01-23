@@ -2,15 +2,15 @@ import "../stylesheets/projectCard.css";
 
 const ProjectCard = ({ href, imgSrc, title, description }) => {
   return (
-    <a href={href}>
-      <div className="projectCard">
+    <div className="projectCard">
+      <a href={href} target="_blank">
         <img className="projectImg" src={imgSrc} />
         <div className="projectInfo">
-          <p className="projectTitle">{title}</p>
+          <p className="projectTitle headerFont">{title}</p>
           <p className="projectDescription">{description}</p>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 };
 
