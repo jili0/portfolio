@@ -1,9 +1,9 @@
 #projectsContainer {
+  margin-top: 4vh;
+  margin-inline: 4vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: center;
-  padding: 3vh;
-  gap: 4vh;
 }
 
 @media screen and (max-width: 800px) {
