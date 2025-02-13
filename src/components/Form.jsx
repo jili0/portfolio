@@ -1,6 +1,5 @@
 import "../stylesheets/form.css";
 import { useState } from "react";
-import { RxCross2 } from "react-icons/rx";
 
 const Form = () => {
   const [name, setName] = useState("");
