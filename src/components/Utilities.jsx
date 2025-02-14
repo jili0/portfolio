@@ -1,5 +1,6 @@
 import utilities from "../data/utilities";
 import "../stylesheets/utilities.css";
+import { TiArrowRightThick } from "react-icons/ti";
 
 const Utilities = () => {
   return utilities.map(({ id, title, href }) => (
