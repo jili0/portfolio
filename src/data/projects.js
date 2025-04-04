@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     name: "Music App",
     projectLink: "https://jingli.work/music-app",
