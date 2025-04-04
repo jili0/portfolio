@@ -3,8 +3,7 @@ import html from "../logos/html.png";
 import css from "../logos/css.svg";
 import javascript from "../logos/javascript.png";
 import react from "../logos/react.png";
-import firebase from "../logos/firebase.png";
-import bootstrap from "../logos/bootstrap.png";
+
 const Hero = () => {
   return (
     <>
@@ -49,22 +48,6 @@ const Hero = () => {
             height="48"
             width="48"
           />
-          <img
-            className="technologiesImg"
-            title="Firebase"
-            src={firebase}
-            alt="firebase"
-            height="48"
-            width="48"
-          />
-          <img
-            className="technologiesImg"
-            title="Bootstrap"
-            src={bootstrap}
-            alt="bootstrap"
-            height="48"
-            width="48"
-          />{" "}
         </div>
       </div>
       <article className="textBox">

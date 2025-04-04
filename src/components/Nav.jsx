@@ -1,5 +1,5 @@
 import "../stylesheets/nav.css";
-import pageLinks from "../data/pageLinks";
+import pageLinks from "../data/pageLinks.js";
 
 const Nav = () => {
   return (
