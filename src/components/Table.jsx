@@ -5,43 +5,64 @@ const Table = () => {
     <table>
       <thead>
         <tr>
-          <td colSpan="2" className="headerFont">Areas of Expertise</td>
+          <td colSpan="2" className="headerFont">Technical Expertise</td>
         </tr>
       </thead>
       <tbody className="center">
         <tr>
-          <td>HTML/CSS</td>
-          <td rowSpan="2">Programming Languages</td>
+          <td>HTML</td>
+          <td rowSpan="6">Frontend</td>
         </tr>
         <tr>
-          <td>Javascript</td>
+          <td>CSS</td>
+        </tr>
+        <tr>
+          <td>Sass</td>
+        </tr>
+        <tr>
+          <td>Tailwind</td>
+        </tr>
+        <tr>
+          <td>Figma</td>
+        </tr>
+        <tr>
+          <td>JavaScript/TypeScript</td>
         </tr>
         <tr>
           <td>React</td>
-          <td rowSpan="2">Frameworks</td>
+          <td rowSpan="4">Backend</td>
         </tr>
         <tr>
-          <td>Bootstrap</td>
+          <td>Node.js</td>
         </tr>
         <tr>
-          <td>Firebase</td>
-          <td rowSpan="3">Utilities</td>
+          <td>Express.js</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+        </tr>
+        <tr>
+          <td>Git</td>
+          <td rowSpan="4">Tools</td>
         </tr>
         <tr>
           <td>GitHub</td>
+        </tr>
+        <tr>
+          <td>GitLab</td>
         </tr>
         <tr>
           <td>VS Code</td>
         </tr>
         <tr>
           <td>German (C2 Level)</td>
-          <td rowSpan="3">My Speaking Languages</td>
+          <td rowSpan="3">Languages</td>
         </tr>
         <tr>
-          <td>English (fluent)</td>
+          <td>English (Fluent)</td>
         </tr>
         <tr>
-          <td>Chinese (Native Tongue)</td>
+          <td>Chinese (Native)</td>
         </tr>
       </tbody>
     </table>
