@@ -23,11 +23,6 @@ details {
   padding: 1rem;
 }
 
-details > p > strong {
-  color: var(--COLOR-THEME-2);
-  letter-spacing: 1px;
-}
-
 summary {
   font-family: "cinzel";
   display: block;
