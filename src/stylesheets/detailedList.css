@@ -14,11 +14,6 @@
   margin-inline: auto;
 }
 
-.detailListItem:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
 details {
   padding: 1rem;
 }
@@ -27,6 +22,15 @@ summary {
   font-family: "cinzel";
   display: block;
   text-shadow: var(--SHADOW-DEFAULT);
+  width: 105%;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+
+summary:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 details p {
