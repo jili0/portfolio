@@ -1,12 +1,9 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-// Log if API key exists
-console.log('Resend API key exists:', !!process.env.RESEND_API_KEY);
-
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
+  // Initialize Resend only when the API route is called, not at build time
+  const resend = new Resend(process.env.RESEND_API_KEY);
   console.log('API route called');
   
   try {
